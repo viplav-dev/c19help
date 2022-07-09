@@ -1,0 +1,195 @@
+.search__twitter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 100px;
+}
+
+.search__twitter h2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.search__twitter h2 span {
+  color: #1a1a1a;
+}
+
+.search__twitter .twitter__search__form {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search__twitter .twitter__search__form .services {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  margin-top: 5px;
+  padding: 10px 15px;
+  border: none;
+  width: 300px;
+  font-size: 12px;
+  border: 2px solid rgba(139, 139, 139, 0.3);
+  font-family: "Montserrat", sans-serif;
+}
+
+.search__twitter .twitter__search__form .services:focus {
+  outline: none;
+  border: 2px solid #1a1a1a;
+}
+
+.search__twitter .twitter__search__form .city__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.search__twitter .twitter__search__form .city__container .city__input {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 0 25px 25px 0;
+  margin-top: 5px;
+  padding: 10px 15px;
+  border: none;
+  width: 230px;
+  font-size: 12px;
+  border: 2px solid rgba(139, 139, 139, 0.3);
+  font-family: "Montserrat", sans-serif;
+}
+
+.search__twitter .twitter__search__form .city__container .city__input:focus {
+  outline: none;
+  border: 2px solid #1a1a1a;
+}
+
+.search__twitter .twitter__search__form .city__container .city__label {
+  border-radius: 25px 0 0 25px;
+  margin-top: 5px;
+  padding: 10px 15px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.search__twitter .twitter__search__form .twitter__submit {
+  background-color: #12bbd4;
+  border-radius: 25px;
+  margin-top: 5px;
+  padding: 10px 15px;
+  border: none;
+  width: 150px;
+  font-size: 12px;
+  border: 2px solid rgba(139, 139, 139, 0.3);
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+ul.ks-cboxtags {
+  list-style: none;
+  padding-left: 40px;
+}
+
+ul.ks-cboxtags li {
+  display: inline;
+}
+
+ul.ks-cboxtags li label {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(139, 139, 139, 0.3);
+  color: #adadad;
+  border-radius: 25px;
+  white-space: nowrap;
+  margin: 3px 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+ul.ks-cboxtags li label {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul.ks-cboxtags li label::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 12px;
+  padding: 2px 6px 2px 2px;
+  content: "\f067";
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label::before {
+  content: "\f00c";
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+  border: 2px solid #1bdbf8;
+  background-color: #12bbd4;
+  color: #fff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+  display: absolute;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:focus + label {
+  border: 2px solid #e9a1ff;
+}
+
+@media (max-width: 800px) {
+  .search__twitter {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    margin: 0 5vw 0 10vw;
+  }
+  .twitter__submit {
+    float: right;
+  }
+}
+/*# sourceMappingURL=searchtwitter.css.map */

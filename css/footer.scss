@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+.footer__container{
+    background-color: #EF9AAF;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px 4vw;
+    margin-top:50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    
+    
+    
+    .right__footer{
+        a{
+            font-family: 'Monoton', cursive;
+            text-decoration: none;
+            color: #fff;
+
+        }
+    }
+
+}
+
+@media (max-width: 800px) {
+    .left__footer{
+        max-width:200px;
+    }
+  }

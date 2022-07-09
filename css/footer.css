@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+.footer__container {
+  background-color: #EF9AAF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 4vw;
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+.footer__container .right__footer a {
+  font-family: 'Monoton', cursive;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .left__footer {
+    max-width: 200px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

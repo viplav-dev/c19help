@@ -1,0 +1,169 @@
+.search__twitter {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 100px;
+  h2 {
+    align-self: center;
+    color: #ffffff;
+    font-size: 2rem;
+    span {
+      color: #1a1a1a;
+    }
+  }
+  .twitter__search__form {
+    
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .services{
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 25px;
+      margin-top: 5px;
+      padding: 10px 15px;
+      border:none;
+      width: 300px;
+      font-size: 12px;
+      border: 2px solid rgba(139, 139, 139, 0.3);
+      font-family: "Montserrat", sans-serif;
+
+    }
+    .services:focus{
+      outline: none;
+      border: 2px solid #1a1a1a;
+
+
+
+    }
+    .city__container{
+      display:flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      .city__input{
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius:0 25px 25px 0;
+        margin-top: 5px;
+        padding: 10px 15px;
+        border:none;
+        width: 230px;
+        font-size: 12px;
+        border: 2px solid rgba(139, 139, 139, 0.3);
+        font-family: "Montserrat", sans-serif;
+        
+  
+      }
+      .city__input:focus{
+        outline: none;
+        border: 2px solid #1a1a1a;
+  
+  
+  
+      }
+      .city__label{
+        border-radius:25px 0 0 25px;
+        margin-top: 5px;
+        padding: 10px 15px;
+        background-color: #1a1a1a;
+        color: #ffffff;
+      }
+    }
+    .twitter__submit{
+      background-color: #12bbd4;
+      border-radius: 25px;
+      margin-top: 5px;
+      padding: 10px 15px;
+      border:none;
+      width: 150px;
+      font-size: 12px;
+      border: 2px solid rgba(139, 139, 139, 0.3);
+      font-family: "Montserrat", sans-serif;
+      color: #ffffff;
+      font-weight: bold;
+      
+      
+
+
+    }
+
+
+  }
+}
+ul.ks-cboxtags {
+  list-style: none;
+  padding-left: 40px;
+}
+ul.ks-cboxtags li {
+  display: inline;
+}
+ul.ks-cboxtags li label {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(139, 139, 139, 0.3);
+  color: #adadad;
+  border-radius: 25px;
+  white-space: nowrap;
+  margin: 3px 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: all 0.2s;
+}
+
+ul.ks-cboxtags li label {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul.ks-cboxtags li label::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 12px;
+  padding: 2px 6px 2px 2px;
+  content: "\f067";
+  transition: transform 0.3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label::before {
+  content: "\f00c";
+  transform: rotate(-360deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+  border: 2px solid #1bdbf8;
+  background-color: #12bbd4;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+  display: absolute;
+}
+ul.ks-cboxtags li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+ul.ks-cboxtags li input[type="checkbox"]:focus + label {
+  border: 2px solid #e9a1ff;
+}
+@media (max-width: 800px) {
+  .search__twitter {
+    flex-direction: column !important;
+    margin: 0 5vw 0 10vw;
+
+    
+  }
+  .twitter__submit{
+    float: right;
+  }
+}
